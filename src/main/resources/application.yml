@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: org.h2.Driver
+      jdbc-url: jdbc:h2:tcp://localhost:9999/~/.batch/cbms-batch
+      username: sa
+      password:
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+cbms:
+  target:
+    path: 'C:\workspace\batch\cbms\fixed-length-file'
