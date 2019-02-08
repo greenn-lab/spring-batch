@@ -1,4 +1,4 @@
-package kr.or.knia.batch.cbms;
+package kr.or.knia.batch;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableBatchProcessing
 @SpringBootApplication
-public class CbmsApplication {
+public class Application {
 
   public static void main(String[] args) {
-    SpringApplication.run(CbmsApplication.class, args);
+    SpringApplication.run(Application.class, args);
   }
 
 }

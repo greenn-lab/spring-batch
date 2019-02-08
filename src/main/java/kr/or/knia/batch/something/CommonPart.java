@@ -1,4 +1,4 @@
-package kr.or.knia.batch.cbms;
+package kr.or.knia.batch.something;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import javax.persistence.Transient;
 
 @MappedSuperclass
 @Data
-public class CBMS {
+public class CommonPart {
   @Id
   private String transferCode;
 

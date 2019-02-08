@@ -8,10 +8,10 @@
     <version>1.5.19.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>kr.or.knia.batch</groupId>
-  <artifactId>cbms</artifactId>
+  <groupId>kr.or.knia</groupId>
+  <artifactId>batch</artifactId>
   <version>0.0.1</version>
-  <name>cbms</name>
+  <name>batch</name>
   <description></description>
 
   <properties>
@@ -67,17 +67,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.1</version>
-        <configuration>
-          <mainClass>org.h2.tools.Server</mainClass>
-          <arguments>
-            <argument>-browser</argument>
-          </arguments>
-        </configuration>
       </plugin>
     </plugins>
   </build>

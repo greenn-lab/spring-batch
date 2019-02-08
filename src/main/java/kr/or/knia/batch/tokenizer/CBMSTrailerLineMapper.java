@@ -1,4 +1,4 @@
-package kr.or.knia.batch.cbms.tokenizer;
+package kr.or.knia.batch.tokenizer;
 
 import org.springframework.batch.item.file.transform.FixedLengthTokenizer;
 import org.springframework.batch.item.file.transform.Range;

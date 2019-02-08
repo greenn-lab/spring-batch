@@ -1,4 +1,4 @@
-package kr.or.knia.batch.cbms;
+package kr.or.knia.batch;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CbmsApplicationTests {
+public class BatchApplicationTests {
 
   @Test
   public void contextLoads() {
